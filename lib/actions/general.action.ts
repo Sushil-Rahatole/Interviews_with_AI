@@ -77,6 +77,15 @@ export async function getFeedbackByInterviewId(
 ): Promise<Feedback | null> {
   const { interviewId, userId } = params;
 
+  // if (!interviewId || typeof interviewId !== "string" || !userId || typeof userId !== "string") {
+  //   console.warn("Invalid interviewId or userId", { interviewId, userId });
+  //   return null;
+  // }
+  // console.log("interviewId:", interviewId, typeof interviewId);
+  // console.log("userId:", userId, typeof userId);
+
+  
+
   const querySnapshot = await db
     .collection("feedback")
     .where("interviewId", "==", interviewId)
