@@ -1,4 +1,4 @@
-# Interviews_with_AI  [Check out deployed project](https://interviews-with-ai.vercel.app/)
+# Interviews_with_AI  [`Check out project`](https://interviews-with-ai.vercel.app/)
 This is AI based mock interviews website, where user can schedule or practice for their interviews, the AI will also give in depth feedback about the interview , where you should improve your skills.
 
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
@@ -16,6 +16,9 @@ This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-
 ## Getting Started
 
 1. Clone the Repository
+```bash
+git clone https://github.com/Sushil-Rahatole/Interviews_with_AI.git
+```
 
 2. Setup project
 ```bash
